@@ -1,0 +1,10 @@
+name: teste workflow
+on: workflow_dispatch
+jobs:
+  primeiro-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: imprime olá
+        run: echo "olá mundo!"
+      - name: adeus
+        run: echo "adeus!"
